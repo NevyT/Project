@@ -5,8 +5,8 @@ from nltk.corpus import stopwords
 from sklearn import feature_extraction
 import pandas as pd
 
-loaded_model = pickle.load(open('model_pickle_TF-IDF_SMOTE1','rb'))
-loaded_data_training = pickle.load(open('training_data_tfidf_vectorize1','rb'))
+loaded_model = pickle.load(open('word_embeded', 'rb'))
+loaded_data_training = pickle.load(open('mode_XGBoost', 'rb'))
 
 
 factory = StemmerFactory()
